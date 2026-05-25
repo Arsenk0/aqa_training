@@ -1,17 +1,17 @@
-# Проект автотестування на Playwright
+# Playwright Automation Framework
 
-Цей проект створено для вивчення та написання автоматизованих E2E тестів з використанням [Playwright](https://playwright.dev/) та TypeScript.
+This project is created to study and implement automated E2E tests using [Playwright](https://playwright.dev/) and TypeScript.
 
-## Структура проекту
-- `1/` - перша частина навчання (базові тести).
-  - `tests/` - директорія, де знаходяться файли тестів (`*.spec.ts`).
-  - `pages/` - класи Page Object Model (POM) для роботи зі сторінками.
-  - `playwright.config.ts` - конфігураційний файл Playwright.
+## Project Structure
+- `1/` - The first part of the training (basic tests).
+  - `tests/` - Directory containing the test files (`*.spec.ts`).
+  - `pages/` - Page Object Model (POM) classes for interacting with web pages.
+  - `playwright.config.ts` - Playwright configuration file.
 
-## Запуск тестів (знаходячись у папці `1`)
-- Запуск в headless режимі: `npx playwright test`
-- Запуск в UI режимі (найкраще для дебагу): `npx playwright test --ui`
-- Запуск з браузером: `npx playwright test --headed`
+## Running Tests (from inside the `1/` directory)
+- Run in headless mode: `npx playwright test`
+- Run in UI mode (best for debugging): `npx playwright test --ui`
+- Run with a visible browser (headed mode): `npx playwright test --headed`
 
-## Навчання
-Цей репозиторій використовується для практики написання тестів, зокрема патерну Page Object Model та роботи з різними типами селекторів.
+## Learning Objectives
+This repository serves as a practical playground for writing automated tests, specifically focusing on the Page Object Model pattern and working with various types of locators.
